@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <ImageButton
+        android:id="@+id/back1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/iconback"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/accountprofile"
+            android:id="@+id/account_profile"/>
+        
+        <ImageView
+            android:layout_width="116dp"
+            android:layout_height="69dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/idname"/>
+
+        <ImageView
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="85dp"
+            android:layout_width="41dp"
+            android:layout_height="18.35dp"
+            android:background="@drawable/hart"/>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/profilethro"
+        android:layout_width="376dp"
+        android:layout_height="31.5dp"
+        android:background="@drawable/profilethro"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+    <ImageButton
+        android:layout_width="358dp"
+        android:layout_height="20dp"
+        android:background="@drawable/thro"
+        android:layout_marginLeft="18.5dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/thro"/>
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@drawable/line"
+        android:layout_marginLeft="65dp"/>
+
+    <ImageButton
+        android:id="@+id/com1"
+        android:layout_width="358dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="18.5dp"
+        android:background="@drawable/com1"/>
+
+    <ImageView
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:background="@drawable/line"
+        android:layout_marginLeft="65dp"/>
+
+
+</LinearLayout>

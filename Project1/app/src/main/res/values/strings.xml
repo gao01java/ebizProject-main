@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">슬기로운 e비생활</string>
+
+
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header_title">Kenan</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+</resources>
