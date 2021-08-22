@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/mainbackground"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/back2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/back1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="650dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/loginpageProfile"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="125.5dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/profile123" />
+
+            <EditText
+                android:layout_marginTop="15dp"
+                android:layout_gravity="center"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:hint="아이디 입력 하세요"/>
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:layout_gravity="center"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="비밀번호 입력 하세요"/>
+
+        <ImageButton
+            android:id="@+id/login_button"
+            android:layout_width="327dp"
+            android:layout_height="48dp"
+            android:layout_gravity="center"
+            android:background="@drawable/loginicon"
+            android:layout_marginTop="15dp"/>
+
+       <LinearLayout
+           android:layout_marginTop="15dp"
+           android:layout_width="200dp"
+           android:layout_height="56dp"
+           android:layout_gravity="center"
+           android:orientation="horizontal">
+           <ImageButton
+               android:layout_width="56dp"
+               android:layout_height="56dp"
+               android:background="@drawable/facebook"
+               android:id="@+id/facebookLogin"/>
+
+           <ImageButton
+               android:layout_marginLeft="88dp"
+               android:layout_width="56dp"
+               android:layout_height="56dp"
+               android:background="@drawable/google"
+               android:id="@+id/googleLogin"/>
+
+       </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/kakaologin"
+            android:layout_width="183dp"
+            android:layout_height="45dp"
+            android:background="@drawable/kakaologin"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+/>
+        <ImageButton
+            android:layout_width="327dp"
+            android:layout_height="48dp"
+            android:background="@drawable/accountcon"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/continueAccount"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

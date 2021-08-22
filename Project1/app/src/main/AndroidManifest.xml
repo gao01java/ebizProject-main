@@ -10,6 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project1">
 
+        <activity android:name=".loginActivity"/>
         <activity android:name=".NoticeActivity"/>
         <activity android:name=".accountActivity"/>
         <activity android:name=".MainActivity">

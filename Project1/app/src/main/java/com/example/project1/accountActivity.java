@@ -23,6 +23,11 @@ public class accountActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.loginPage).setOnClickListener(v -> {
+            Intent intent=new Intent(accountActivity.this,loginActivity.class);
+            startActivity(intent);
+        });
+
 
         findViewById(R.id.account_profile).setOnClickListener(v -> {
             shodDialog();

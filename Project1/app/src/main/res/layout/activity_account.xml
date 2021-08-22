@@ -78,5 +78,12 @@
         android:background="@drawable/line"
         android:layout_marginLeft="65dp"/>
 
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="로그인 페이지 보로 가"
+        android:id="@+id/loginPage"/>q
 
 </LinearLayout>
