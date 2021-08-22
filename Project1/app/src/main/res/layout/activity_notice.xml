@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/back1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/iconback"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+    
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center">
+        <ImageButton
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/notice2"
+            android:id="@+id/notice2"/>
+
+        <ImageButton
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/survey"
+            android:id="@+id/survey"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center">
+        <ImageButton
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/notice3"
+            android:id="@+id/notice3"/>
+
+        <ImageButton
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/lof"
+            android:id="@+id/lof"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
