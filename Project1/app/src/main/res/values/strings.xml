@@ -5,4 +5,8 @@
     <string name="nav_header_desc">Navigation header</string>
     <string name="nav_header_title">Kenan</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="date_birth">월</string>
+    <string name="grade_number">학년</string>
+    <string name="class_number"></string>
+    <string name="number">번</string>
 </resources>

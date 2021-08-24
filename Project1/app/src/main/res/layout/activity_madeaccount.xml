@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/mainbackground"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/back2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/back1"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+    <LinearLayout
+        android:layout_width="355dp"
+        android:layout_height="937dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="31dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="15dp"
+                android:text="약관 및 개인정보 수집동의"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="회원 약관"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+
+            <LinearLayout
+                android:layout_width="258dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="개인정보 수집동의1232131232132131245721957812578957
+12512759175987128951257928175575712975
+5712987591275912750917509172957129052157
+502917590127591725971290571572091275907152
+5219058901285091825091285901850981598210951
+52197591027590127509175901759012759071205
+127590172590175097129057195712" />
+
+                </ScrollView>
+
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/checkbox1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="동의(필수)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="개인 정보 수집동의"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="258dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="개인정보 수집동의1232131232132131245721957812578957
+12512759175987128951257928175575712975
+5712987591275912750917509172957129052157
+502917590127591725971290571572091275907152
+5219058901285091825091285901850981598210951
+52197591027590127509175901759012759071205
+127590172590175097129057195712" />
+                </ScrollView>
+
+            </LinearLayout>
+
+            <CheckBox
+                android:id="@+id/checkbox2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="동의(필수)" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:text="제3저  개인정보 제공동의"
+                android:textColor="@color/black"
+                android:textSize="25sp" />
+
+            <LinearLayout
+                android:layout_width="258dp"
+                android:layout_height="95dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <ScrollView
+                    android:layout_width="224dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="개인정보 수집동의1232131232132131245721957812578957
+12512759175987128951257928175575712975
+5712987591275912750917509172957129052157
+502917590127591725971290571572091275907152
+5219058901285091825091285901850981598210951
+52197591027590127509175901759012759071205
+127590172590175097129057195712" />
+                </ScrollView>
+
+            </LinearLayout>
+
+
+            <CheckBox
+                android:id="@+id/checkbox3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="동의(필수)" />
+
+
+        <ImageButton
+
+            android:layout_gravity="center"
+            android:layout_width="327dp"
+            android:layout_height="48dp"
+            android:background="@drawable/next"
+            android:id="@+id/nextImageButton1"/>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
