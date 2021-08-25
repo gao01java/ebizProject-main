@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Project1">
 
+
+
+        <activity android:name=".smartBActivity"/>
         <activity android:name=".MadeAccountActivity2"/>
         <activity android:name=".MadeAccountActivity"/>
         <activity android:name=".loginActivity"/>

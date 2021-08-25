@@ -2,49 +2,46 @@ package com.example.project1;
 
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.os.Bundle;
-import android.widget.ImageView;
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-
-public class loginActivity extends AppCompatActivity {
+public class smartBActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-
-
-        findViewById(R.id.login_button).setOnClickListener(v -> {
-            Intent intent=new Intent(loginActivity.this,MainActivity.class);
-            startActivity(intent);
-        });
-
-        findViewById(R.id.continueAccount).setOnClickListener(v -> {
-            Intent intent=new Intent(loginActivity.this,MadeAccountActivity.class);
-            startActivity(intent);
-        });
+        setContentView(R.layout.activity_smartb);
 
         findViewById(R.id.back2).setOnClickListener(v -> {
-            Intent intent=new Intent(loginActivity.this,MainActivity.class);
+            Intent intent=new Intent(smartBActivity.this,MainActivity.class);
             startActivity(intent);
         });
 
-        findViewById(R.id.googleLogin).setOnClickListener(v ->{
-            shodDialog();
-        });
-        findViewById(R.id.facebookLogin).setOnClickListener(v ->{
-            shodDialog();
-        });
-        findViewById(R.id.kakaologin).setOnClickListener(v ->{
+        findViewById(R.id.order).setOnClickListener(v -> {
             shodDialog();
         });
 
+        findViewById(R.id.git).setOnClickListener(v -> {
+            shodDialog();
+        });
 
+        findViewById(R.id.pay).setOnClickListener(v -> {
+            shodDialog();
+        });
+
+        findViewById(R.id.coupon).setOnClickListener(v -> {
+            shodDialog();
+        });
+
+        findViewById(R.id.star).setOnClickListener(v -> {
+            shodDialog();
+        });
+
+        findViewById(R.id.bag).setOnClickListener(v -> {
+            shodDialog();
+        });
 
     }
 
@@ -61,6 +58,4 @@ public class loginActivity extends AppCompatActivity {
         });
         builder.create().show();
     }
-
-
 }

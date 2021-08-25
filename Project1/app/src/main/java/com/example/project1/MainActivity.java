@@ -28,6 +28,24 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        findViewById(R.id.SmartOrder).setOnClickListener(v -> {
+            Intent intent=new Intent(MainActivity.this,smartBActivity.class);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.foodIbn).setOnClickListener(v -> {
+            Intent intent=new Intent(Intent.ACTION_VIEW);
+            Uri uri=Uri.parse("http://www.gunpo-ebiz.hs.kr/lunch.lunch_list?mcode=161311&cate=161311");
+            intent.setData(uri);
+            startActivity(intent);
+        });
+
+        findViewById(R.id.bechelorIbn).setOnClickListener(v -> {
+            Intent intent=new Intent(Intent.ACTION_VIEW);
+            Uri uri=Uri.parse("http://www.gunpo-ebiz.hs.kr/calendar.calendar_list?view=main");
+            intent.setData(uri);
+            startActivity(intent);
+        });
 
 
 

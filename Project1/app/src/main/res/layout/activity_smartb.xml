@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageButton
+        android:id="@+id/back1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/iconback"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <ImageView
+        android:layout_width="380dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/pacode"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="380dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        >
+        <ImageButton
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/order"
+            android:id="@+id/order"/>
+
+        <ImageButton
+            android:id="@+id/git"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/git" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="380dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        >
+        <ImageButton
+            android:id="@+id/pay"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/pay"
+            />
+
+        <ImageButton
+            android:id="@+id/coupon"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/coupon" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="380dp"
+        android:layout_height="190dp"
+        android:layout_gravity="center"
+        >
+        <ImageButton
+            android:id="@+id/star"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/star"
+            />
+
+        <ImageButton
+            android:id="@+id/bag"
+            android:layout_width="190dp"
+            android:layout_height="190dp"
+            android:background="@drawable/bag" />
+    </LinearLayout>
+
+</LinearLayout>

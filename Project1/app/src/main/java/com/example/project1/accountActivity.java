@@ -13,6 +13,8 @@ public class accountActivity extends AppCompatActivity {
 
 
     ImageButton backIb,acc_profile;
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_account);
