@@ -45,6 +45,8 @@ public class smartBActivity extends AppCompatActivity {
 
     }
 
+
+
     protected void shodDialog() {
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle("경고");

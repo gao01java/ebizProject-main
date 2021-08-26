@@ -1,8 +1,10 @@
 package com.example.project1;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -12,7 +14,7 @@ import android.widget.ImageButton;
 
 public class MainActivity extends AppCompatActivity {
     DrawerLayout drawerLayout;
-    ImageButton menuB,change_account,School_web;
+    ImageButton menuB,change_account,School_web,order;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -28,8 +30,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        findViewById(R.id.SmartOrder).setOnClickListener(v -> {
-            Intent intent=new Intent(MainActivity.this,smartBActivity.class);
+/** error order button*/
+        order=(ImageButton)findViewById(R.id.SmartOrder);
+        order.setOnClickListener(v -> {
+            Intent intent=new Intent(MainActivity.this,smartBTACtivity.class);
             startActivity(intent);
         });
 
@@ -69,7 +73,33 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.image1).setOnClickListener(v -> {
+           shodDialog();
+        });
+        findViewById(R.id.image2).setOnClickListener(v -> {
+            shodDialog();
+        });
+
+        findViewById(R.id.plusButton).setOnClickListener(v -> {
+            shodDialog();
+        });
 
 
+
+    }
+
+
+    protected void shodDialog() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setTitle("경고");
+        builder.setMessage("작업중 입니다.");
+        builder.setIcon(R.drawable.tools);
+        builder.setPositiveButton("확인", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                dialog.dismiss();
+            }
+        });
+        builder.create().show();
     }
 }
